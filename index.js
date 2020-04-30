@@ -13,10 +13,11 @@
  * NOTE: This example has been completed for you.
 */
 function addNumbers(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 
 // ⭐️ Example Challenge end ⭐️
+
 
 
 // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -36,7 +37,7 @@ function addNumbers(num1, num2) {
  * 
 */
 function sayGoodbye(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -54,7 +55,7 @@ function sayGoodbye(/* code here */) {
  * Hint 2: There is a very easy way to round numbers in JS. Do a google search to find out how. 
 */
 function temperatureCtoF(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -75,7 +76,7 @@ function temperatureCtoF(/* code here */) {
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
 function temperatureInF(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 
@@ -96,7 +97,7 @@ function temperatureInF(/* code here */) {
  * }
 */
 function makePersonObject(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -113,7 +114,7 @@ function makePersonObject(/* code here */) {
  * the returned value should look like `Hello, my name is Leia`.
 */
 function getName(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 
@@ -133,7 +134,7 @@ function getName(/* code here */) {
  * the returned value should be: 2.
 */
 function appleIndex(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -152,7 +153,7 @@ function appleIndex(/* code here */) {
  * the returned value should be: [ false, true, false, false, true, false ].
 */
 function isItAnApple(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 
@@ -188,8 +189,8 @@ var inventory = [
   * NOTE: This example has been completed for you.
 **/
 function get3rdCar(inventory) {
-  const the3rd = inventory[2];
-  return `The is a ${the3rd.car_make} ${the3rd.car_model}`
+    const the3rd = inventory[2];
+    return `The is a ${the3rd.car_make} ${the3rd.car_model}`
 }
 
 // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -210,7 +211,7 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -225,7 +226,7 @@ function getCarInfoByIndex(inventory, index) {
  * it will return `This is a Lincoln Town Car`.
 */
 function getLastCarInfo(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -238,7 +239,7 @@ function getLastCarInfo(/* code here */) {
  * getModelYears returns an array containing all the 'car_year's in the inventory.
 */
 function getModelYears(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -256,7 +257,7 @@ function getModelYears(/* code here */) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoById(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -274,7 +275,7 @@ function getCarInfoById(/* code here */) {
  * in the same order as they appear in the original inventory.
 */
 function getOlderCars(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -291,7 +292,7 @@ function getOlderCars(/* code here */) {
  * in the same order as they appear in the original inventory.
 */
 function getGermanCars(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /**
@@ -308,35 +309,35 @@ function getGermanCars(/* code here */) {
  *         (2) returns the updated value of the `odometer`.
 */
 function carMaker(/* code here */) {
-  /* code here */
+    /* code here */
 }
 
 /// ////// END OF CHALLENGE /////////
 /// ////// END OF CHALLENGE /////////
 /// ////// END OF CHALLENGE /////////
 if (typeof exports !== 'undefined') {
-  // IGNORE: Test/Env Detected
-  // For Node/Non-browser test env
-  module.exports = module.exports || {}
-  if (addNumbers) { module.exports.addNumbers = addNumbers }
-  if (sayGoodbye) { module.exports.sayGoodbye = sayGoodbye }
-  if (temperatureCtoF) { module.exports.temperatureCtoF = temperatureCtoF }
-  if (temperatureInF) { module.exports.temperatureInF = temperatureInF }
-  if (makePersonObject) { module.exports.makePersonObject = makePersonObject }
-  if (getName) { module.exports.getName = getName }
-  if (appleIndex) { module.exports.appleIndex = appleIndex }
+    // IGNORE: Test/Env Detected
+    // For Node/Non-browser test env
+    module.exports = module.exports || {}
+    if (addNumbers) { module.exports.addNumbers = addNumbers }
+    if (sayGoodbye) { module.exports.sayGoodbye = sayGoodbye }
+    if (temperatureCtoF) { module.exports.temperatureCtoF = temperatureCtoF }
+    if (temperatureInF) { module.exports.temperatureInF = temperatureInF }
+    if (makePersonObject) { module.exports.makePersonObject = makePersonObject }
+    if (getName) { module.exports.getName = getName }
+    if (appleIndex) { module.exports.appleIndex = appleIndex }
 
-  if (isItAnApple) { module.exports.isItAnApple = isItAnApple }
-  
+    if (isItAnApple) { module.exports.isItAnApple = isItAnApple }
 
-  
-  if (carMaker) { module.exports.carMaker = carMaker }
-  if (getCarInfoByIndex) { module.exports.getCarInfoByIndex = getCarInfoByIndex }
-  if (getLastCarInfo) { module.exports.getLastCarInfo = getLastCarInfo }
-  if (getCarInfoById) { module.exports.getCarInfoById = getCarInfoById }
 
-  if (getModelYears) { module.exports.getModelYears = getModelYears }
-  if (getOlderCars) { module.exports.getOlderCars = getOlderCars }
-  if (getGermanCars) { module.exports.getGermanCars = getGermanCars }
- 
+
+    if (carMaker) { module.exports.carMaker = carMaker }
+    if (getCarInfoByIndex) { module.exports.getCarInfoByIndex = getCarInfoByIndex }
+    if (getLastCarInfo) { module.exports.getLastCarInfo = getLastCarInfo }
+    if (getCarInfoById) { module.exports.getCarInfoById = getCarInfoById }
+
+    if (getModelYears) { module.exports.getModelYears = getModelYears }
+    if (getOlderCars) { module.exports.getOlderCars = getOlderCars }
+    if (getGermanCars) { module.exports.getGermanCars = getGermanCars }
+
 }
