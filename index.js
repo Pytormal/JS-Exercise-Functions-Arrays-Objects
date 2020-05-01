@@ -18,8 +18,6 @@ function addNumbers(num1, num2) {
 
 // ⭐️ Example Challenge end ⭐️
 
-
-
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
