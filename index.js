@@ -12,11 +12,13 @@
  *
  * NOTE: This example has been completed for you.
 */
-function addNumbers(num1, num2) {
-    return num1 + num2;
+function addNumbers(num5, num3) {
+    return num5 + num3;
 }
 
 // ⭐️ Example Challenge end ⭐️
+
+
 
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -34,10 +36,10 @@ function addNumbers(num1, num2) {
  * the returned value should look like: 'Goodbye, Andy. Have a great day.'
  * 
 */
-function sayGoodbye(/* code here */) {
-    /* code here */
-}
+function sayGoodbye(Hannah) {
 
+    return 'Goodbye, Hannah. Have a great day.'
+}
 /**
  * ### Challenge `temperatureCtoF`
  * 
@@ -52,9 +54,14 @@ function sayGoodbye(/* code here */) {
  * Hint 1: The formula for converting celsius to fahrenheit is t*9/5 + 32 where t is the temperature in celsius.
  * Hint 2: There is a very easy way to round numbers in JS. Do a google search to find out how. 
 */
-function temperatureCtoF(/* code here */) {
-    /* code here */
+function temperatureCtoF() {
+    let t = 24;
+    t * 9 / 5 + 32
+    return temperatureCtoF
 }
+
+
+
 
 /**
  * ### Challenge `temperatureInF`
