@@ -16,6 +16,8 @@ function addNumbers(num5, num3) {
     return num5 + num3;
 }
 
+console.log("hello")
+
 // ⭐️ Example Challenge end ⭐️
 
 
@@ -57,9 +59,9 @@ function sayGoodbye(Hannah) {
 function temperatureCtoF(celsius) {
     const cTemp = celsius;
     const cToFahr = Math.round(cTemp * 9 / 5 + 32);
-    return `${cToFahr}`;
+    return cToFahr;
 }
-temperatureCtoF(24);
+console.log(temperatureCtoF(24));
 
 
 // function NtemperatureCtoF(celsius) {
